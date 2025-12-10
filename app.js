@@ -6,7 +6,7 @@ const score = document.querySelector("#score");
 let timedId = null;
 let hitPosition;
 let result =0;
-let currentTime =10;
+let currentTime =60;
 
 function randomSquare() {
     squares.forEach((square) => {
